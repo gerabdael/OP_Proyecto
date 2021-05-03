@@ -1,0 +1,67 @@
+Begin Object Class=/Script/Engine.Material Name="M_Dart"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Textures/Sponge_001_NORM.Sponge_001_NORM"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=CC93FE644A5E77223C4546B88126ECA7
+      Material=Material'"M_Dart"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.700000
+      ParameterName="Rough"
+      ExpressionGUID=AF702A8B4FB2E32377BC5E93D31FF9EF
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=2E03AA22449C8366EA2DCC8D20CB5A54
+      Material=Material'"M_Dart"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.300000
+      ParameterName="Specular"
+      ExpressionGUID=AC4CAD174CF405F7E553EB8E028B1771
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=753205B34D0EA05BFE5D25ACED7AAB0C
+      Material=Material'"M_Dart"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/Sponge_001_COLOR.Sponge_001_COLOR"'
+      MaterialExpressionEditorX=-272
+      MaterialExpressionGuid=984DD4534D9AD66412DAD2B2E5138A76
+      Material=Material'"M_Dart"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Specular=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EditorX=128
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=95C5DC344E0824A17A1311AD2C76C38B
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(3929274268584483569,14257779450107716391),ParameterInfos=((Name="Specular"),(Name="Rough")),ExpressionGuids=(AC4CAD174CF405F7E553EB8E028B1771,AF702A8B4FB2E32377BC5E93D31FF9EF),Overrides=(False,False)),ScalarValues=(0.300000,0.700000),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None)),ReferencedTextures=(Texture2D'"/Game/Textures/Sponge_001_COLOR.Sponge_001_COLOR"',Texture2D'"/Game/Textures/Sponge_001_NORM.Sponge_001_NORM"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=65F390814D8001E0EE499BBF34A42FB6
+   ReferencedTextureGuids(1)=CD2C463246BB2AB3E172D1B9D97A890D
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Sponge_001_COLOR",TextureReference=/Game/Textures/Sponge_001_COLOR.Sponge_001_COLOR)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Sponge_001_NORM",TextureReference=/Game/Textures/Sponge_001_NORM.Sponge_001_NORM)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=E9C7E4B44BDCFBE77B72BBA399ED7F55
+End Object

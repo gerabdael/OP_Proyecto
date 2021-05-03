@@ -1,0 +1,67 @@
+Begin Object Class=/Script/Engine.Material Name="M_Rope"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/Rope_001_basecolor.Rope_001_basecolor"'
+      MaterialExpressionEditorX=-319
+      MaterialExpressionEditorY=21
+      MaterialExpressionGuid=08565D8042CB8C455B6CC6B289A27235
+      Material=Material'"M_Rope"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.700000
+      ParameterName="Rough"
+      ExpressionGUID=FFFDD6EC4BBF2B81C04BD4866D611514
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=86F5746F44B5C5E774D0CF9318C3F722
+      Material=Material'"M_Rope"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Textures/Rope_001_normal.Rope_001_normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=08565D8042CB8C455B6CC6B289A27235
+      Material=Material'"M_Rope"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Textures/Rope_001_height.Rope_001_height"'
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=08565D8042CB8C455B6CC6B289A27235
+      Material=Material'"M_Rope"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   WorldPositionOffset=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   WorldDisplacement=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   D3D11TessellationMode=MTM_PNTriangles
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D6B5777F4AD6834C3EF3D1840A12AEF1
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(14257779450107716391),ParameterInfos=((Name="Rough")),ExpressionGuids=(FFFDD6EC4BBF2B81C04BD4866D611514),Overrides=(False)),ScalarValues=(0.700000),ScalarMinMaxValues=((X=0.000000,Y=0.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None)),ReferencedTextures=(Texture2D'"/Game/Textures/Rope_001_basecolor.Rope_001_basecolor"',Texture2D'"/Game/Textures/Rope_001_normal.Rope_001_normal"',Texture2D'"/Game/Textures/Rope_001_height.Rope_001_height"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=09EFDA6E4F93A78B2A6DA8B11ADF8935
+   ReferencedTextureGuids(1)=1D19E360481B8D428013E0BD9DA04B27
+   ReferencedTextureGuids(2)=17F66692414993B5EBE25BA424035F3C
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Rope_001_basecolor",TextureReference=/Game/Textures/Rope_001_basecolor.Rope_001_basecolor)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Rope_001_normal",TextureReference=/Game/Textures/Rope_001_normal.Rope_001_normal)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=5616BDE64C4B1F78D17281B4D3D1A9DB
+End Object

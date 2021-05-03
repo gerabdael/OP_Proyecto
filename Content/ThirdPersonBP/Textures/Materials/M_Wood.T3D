@@ -1,0 +1,62 @@
+Begin Object Class=/Script/Engine.Material Name="M_Wood"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/Textures/Bark_Pine_roughness.Bark_Pine_roughness"'
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=DBA092F0415AD47DC36AF3B3DB7B0297
+      Material=Material'"M_Wood"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Textures/Bark_Pine_normal.Bark_Pine_normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=DBA092F0415AD47DC36AF3B3DB7B0297
+      Material=Material'"M_Wood"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureSample'"M_Wood:MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=309B2F684E4A907ADBB314BFDFCB75CE
+      Material=Material'"M_Wood"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/Bark_Pine_baseColor.Bark_Pine_baseColor"'
+      MaterialExpressionEditorX=-352
+      MaterialExpressionGuid=DBA092F0415AD47DC36AF3B3DB7B0297
+      Material=Material'"M_Wood"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EditorX=96
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(3)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=FE088EC44CC6003BAC3C89B2C59EDF14
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/Textures/Bark_Pine_baseColor.Bark_Pine_baseColor"',Texture2D'"/Game/Textures/Bark_Pine_normal.Bark_Pine_normal"',Texture2D'"/Game/Textures/Bark_Pine_roughness.Bark_Pine_roughness"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=44AA7BA948DAEF1899E82E91FA653612
+   ReferencedTextureGuids(1)=9F9BEE47438584CCA5A270BF3A90F648
+   ReferencedTextureGuids(2)=FEC3EF264BC58A101F410798CC6FCDB8
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Bark_Pine_baseColor",TextureReference=/Game/Textures/Bark_Pine_baseColor.Bark_Pine_baseColor)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Bark_Pine_normal",TextureReference=/Game/Textures/Bark_Pine_normal.Bark_Pine_normal)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Bark_Pine_roughness",TextureReference=/Game/Textures/Bark_Pine_roughness.Bark_Pine_roughness)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=52675CBC438EA2A27C8B3FA0EAD504B7
+End Object

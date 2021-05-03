@@ -1,0 +1,55 @@
+Begin Object Class=/Script/Engine.Material Name="M_Gold"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.300000
+      ParameterName="Rough"
+      ExpressionGUID=D98541724D3883E6DDA3EE8EEDCD0EF1
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=8E9ED24D4A58A863D871EDAF185BC057
+      Material=Material'"M_Gold"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Metallic"
+      ExpressionGUID=042DF8DE400F6E2B9546798F9CF0472A
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=5E995ABD493E09D2B53AFAB8C3DF9F32
+      Material=Material'"M_Gold"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.725000,G=0.476000,B=0.000000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=1ADA4FD04955E40E7F23D3963EC74BCC
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=ACBAFA5D4E05BBFA51E130BE02BEB5CF
+      Material=Material'"M_Gold"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   EmissiveColor=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=8CF3E4EE4CB8315A921752872DD6DA92
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(3078550227877033723,14257779450107716391),ParameterInfos=((Name="Metallic"),(Name="Rough")),ExpressionGuids=(042DF8DE400F6E2B9546798F9CF0472A,D98541724D3883E6DDA3EE8EEDCD0EF1),Overrides=(False,False)),Entries[1]=(NameHashes=(12279385124011487613),ParameterInfos=((Name="Color")),ExpressionGuids=(1ADA4FD04955E40E7F23D3963EC74BCC),Overrides=(False)),ScalarValues=(1.000000,0.300000),VectorValues=((R=0.725000,G=0.476000,B=0.000000,A=1.000000)),ScalarMinMaxValues=((X=0.000000,Y=0.000000),(X=0.000000,Y=0.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=7562A94F45A8CD5A29F9A89B9470EF9F
+End Object

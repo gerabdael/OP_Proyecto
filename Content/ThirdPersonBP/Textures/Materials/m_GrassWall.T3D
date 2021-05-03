@@ -1,0 +1,66 @@
+Begin Object Class=/Script/Engine.Material Name="m_GrassWall"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/Textures/Grass_002_NRM.Grass_002_NRM"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=EFDE13A842E8D1AB355D41B2617AE0E4
+      Material=Material'"m_GrassWall"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.300000
+      ParameterName="Rough"
+      ExpressionGUID=EB1C5CEB4E35FA3F1B4D8589044034D9
+      MaterialExpressionEditorX=-16
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=811316124347584AEE69D2A6E427E52D
+      Material=Material'"m_GrassWall"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/Textures/Grass_002_SPEC.Grass_002_SPEC"'
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=EFDE13A842E8D1AB355D41B2617AE0E4
+      Material=Material'"m_GrassWall"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/Textures/Grass_002_COLOR.Grass_002_COLOR"'
+      MaterialExpressionEditorX=-272
+      MaterialExpressionGuid=172C1257465BBE4393BE9284319E289A
+      Material=Material'"m_GrassWall"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Specular=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EditorX=176
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=1A26DA7847CB3B54255B54A45A1654D6
+   CachedExpressionData=(Parameters=(Entries[0]=(NameHashes=(14257779450107716391),ParameterInfos=((Name="Rough")),ExpressionGuids=(EB1C5CEB4E35FA3F1B4D8589044034D9),Overrides=(False)),ScalarValues=(0.300000),ScalarMinMaxValues=((X=0.000000,Y=0.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None)),ReferencedTextures=(Texture2D'"/Game/Textures/Grass_002_COLOR.Grass_002_COLOR"',Texture2D'"/Game/Textures/Grass_002_SPEC.Grass_002_SPEC"',Texture2D'"/Game/Textures/Grass_002_NRM.Grass_002_NRM"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=F77EB5B54CC3C0256C83CB9F77AEFA12
+   ReferencedTextureGuids(1)=5F3C9E224F6FFBB5EB718C9F3B72065E
+   ReferencedTextureGuids(2)=5DF01AD045991462BA57C8B1CAC62BAE
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Grass_002_COLOR",TextureReference=/Game/Textures/Grass_002_COLOR.Grass_002_COLOR)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Grass_002_NRM",TextureReference=/Game/Textures/Grass_002_NRM.Grass_002_NRM)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Grass_002_SPEC",TextureReference=/Game/Textures/Grass_002_SPEC.Grass_002_SPEC)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F8F96CB140B85739E4C22EACC480BA71
+End Object
